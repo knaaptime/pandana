@@ -113,19 +113,15 @@ setup(
     url="https://udst.github.io/pandana/",
     ext_modules=[cyaccess],
     install_requires=[
-        'numpy >=1.8',
-        'pandas >=0.17',
+        'numpy >=2',
+        'pandas >=2',
         'requests >=2.0',
         'scikit-learn >=0.18',
         'tables >=3.1'
     ],
     classifiers=[
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
         "License :: OSI Approved :: GNU Affero General Public License v3",
     ],
 )
