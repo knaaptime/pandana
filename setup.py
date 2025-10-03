@@ -117,8 +117,8 @@ setup(
         )],
     install_requires=[
         'matplotlib>=1.3.1',
-        'numpy>=1.8.0',
-        'pandas>=0.17.0',
+        'numpy>=2',
+        'pandas>=2',
         'requests>=2.0',
         'tables>=3.1.0',
         'osmnet>=0.1.2',
@@ -133,8 +133,8 @@ setup(
     },
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
         'License :: OSI Approved :: GNU Affero General Public License v3'
     ],
 )
