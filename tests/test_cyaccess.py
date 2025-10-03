@@ -59,7 +59,7 @@ def test_agg_analysis(net, nodes_and_edges):
 
     # test missing aggregation type
     ret = net.get_all_aggregate_accessibility_variables(10, b'test', b'this is', b'bogus')
-    assert np.alltrue(np.isnan(ret))
+    assert np.all(np.isnan(ret))
 
 
 def test_poi_analysis(net, nodes_and_edges):
