@@ -8,6 +8,7 @@ from libcpp.pair cimport pair
 
 import numpy as np
 cimport numpy as np
+np.import_array()
 
 # resources
 # http://cython.readthedocs.io/en/latest/src/userguide/wrapping_CPlusPlus.html
